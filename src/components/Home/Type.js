@@ -11,7 +11,7 @@ function Type() {
           "Flutter Developer",
           "Quality Assurance Engineer",
           "Data Analyst",
-          "Freelancer"
+          "Freelance Developer"
         ],
         autoStart: true,
         loop: true,
