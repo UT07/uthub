@@ -12,10 +12,16 @@
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
 
 </center>
+<h3 align="center">
+    🔹
+    <a href="https://github.com/UT07/uthub/issues">Report Bug</a> &nbsp; &nbsp;
+    🔹
+    <a href="https://github.com/UT07/uthub/issues">Suggestions and Feedback</a>
+</h3>
 
 ## Built With
 
-My personal portfolio <a href="" target="_blank">UT Hub</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://www.theuthub.com/" target="_blank">UT Hub</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
