@@ -13,11 +13,6 @@
 
 </center>
 
-
-## TL;DR
-
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [UT07](https://github.com/UT07/uthub). Thanks!
-
 ## Built With
 
 My personal portfolio <a href="" target="_blank">UT Hub</a> which features some of my github projects as well as my resume and technical skills.<br/>
