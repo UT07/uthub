@@ -50,13 +50,8 @@ function Home2() {
                 <b className="purple"> React.js</b>
               </i>
               &nbsp; I also have proficiency with bunch of databases such as 
-              with <b className="purple">MongoDB, MySQL </b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Firebase
-                </b>
-              </i>
+              with <b className="purple">MongoDB, MySQL, Firebase</b> 
+              
               &nbsp; and
               <i>
                 <b className="purple"> Amazon DynamoDB</b>
