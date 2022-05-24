@@ -57,9 +57,9 @@ function Home2() {
                   Firebase
                 </b>
               </i>
-              &nbsp; like
+              &nbsp; and
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple"> Amazon DynamoDB</b>
               </i>
             </p>
           </Col>
