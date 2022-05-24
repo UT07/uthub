@@ -2,12 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import Wabble from "../../Assets/Projects/wordle.gif";
+import lightlib from "../../Assets/Projects/lightlib-lms.png";
+import carz3330 from "../../Assets/Projects/carz3330.png";
+import yourmeals from "../../Assets/Projects/yourmeals.gif";
+import Cryptomania from "../../Assets/Projects/cryptomania.png";
+import demo from "../../Assets/Projects/Demo.gif";
+
 
 function Projects() {
   return (
@@ -15,72 +16,72 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Projects</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few applications I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={carz3330}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="Carz 3330"
+              description="▪ Developed a full-stack web application that enables users to rent a car and manage bookings. Application also allows vendors to manage the car inventory and request maintenance on over 500 vehicles."
+              link="https://github.com/UT07/carzz"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={lightlib}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Lightlib LMS"
+              description="A lightweight library management system built in .NET 5.0 with Entity Framework Core. Enables library administrators to manage Library Assets, Patrons, and Branches with basic functionality. This project is intended to serve as a long-term resource for small .NET web monoliths"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Cryptomania}
+              isBlog={false}
+              title="Cryptomania"
+              description="Implemented a GitHub hosted data visualization cryptocurrency web application that retreives data from real-time cryptocurrency pricing API and made a time-series analysis graph for the selected coins."
+              link="https://crypto-mania.netlify.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={demo}
+              isBlog={false}
+              title="COVID-19 Tracker Application"
+              description="Collaborated in a cross platform COVID-19 guide for both android and iOS devices that displays the global and nation-wide statistics of SARS-CoV-2 virus. The application has additional features such as identifying the symptoms and suggesting preventive measures, donation links to verified relief funds, and SOS calling options to the emergency services."
+              link="https://github.com/CSE-3310-Team-6/Covid19TrackerAppFinal"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Wabble}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="Wabble"
+              description="Wabble is a cross platform android and iOS puzzle solving game made on Flutter. In the game, user will have 6 guesses to solve the word of the day. Each time user get a letter correct, the tile will turn yellow if it is in the word or green if it is in the right spot."
+              link="https://github.com/UT07/Wabble"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="Your Meals">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={yourmeals}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="Your Meals"
+              description="A flutter app that has recipes of famous food around the world, you can filter meals according to your preferences and restriction as well as highlight your favorite dishes"
+              link="https://github.com/UT07/yourmeals"
             />
           </Col>
+          
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/soumyajit4419/AI_For_Social_Good"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-            />
-          </Col>
+         
         </Row>
       </Container>
     </Container>
