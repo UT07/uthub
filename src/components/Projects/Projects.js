@@ -37,7 +37,7 @@ function Projects() {
               imgPath={lightlib}
               isBlog={false}
               title="Lightlib LMS"
-              description="A lightweight library management system built in .NET 5.0 with Entity Framework Core. Enables library administrators to manage Library Assets, Patrons, and Branches with basic functionality. This project is intended to serve as a long-term resource for small .NET web monoliths"
+              description="A lightweight library management system built in .NET 5.0 with Entity Framework Core. Enables library administrators to manage Library Assets, Patrons, and Branches with basic functionality. This project is intended to serve as a long-term resource for small .NET web monoliths."
             />
           </Col>
           
@@ -70,12 +70,12 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="Your Meals">
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={yourmeals}
               isBlog={false}
               title="Your Meals"
-              description="A flutter app that has recipes of famous food around the world, you can filter meals according to your preferences and restriction as well as highlight your favorite dishes"
+              description="A flutter app that has recipes of famous food around the world, you can filter meals according to your preferences and restriction as well as highlight your favorite dishes."
               link="https://github.com/UT07/yourmeals"
             />
           </Col>
