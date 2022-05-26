@@ -28,9 +28,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ textAlign: "justify",color: "rgb(155 126 172)" }}>
-            "She's in a relationship with me, I'm in a relationship with my goals."{" "}
+            "Reach for the stars so if you fall you land on the clouds"{" "}
           </p>
-          <footer className="blockquote-footer">UT</footer>
+          <footer className="blockquote-footer">Kanye West</footer>
         </blockquote>
       </Card.Body>
     </Card>

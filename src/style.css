@@ -436,10 +436,14 @@ button:focus {
   margin-bottom: 0.5em !important;
   padding: 0 !important;
 }
-
-.blockquote-footer {
-  color: #a588c0 !important;
+@media screen {
+  .blockquote-footer {
+    color: #a588c0 !important;
+    align-items: end;
+    padding-left: 30%;
+  }  
 }
+
 /* --------- */
 /* Projects */
 /* --------- */
