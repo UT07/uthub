@@ -28,9 +28,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ textAlign: "justify",color: "rgb(155 126 172)" }}>
-            "Reach for the stars so if you fall you land on the clouds"{" "}
+            "If you do not believe in yourself, no one will do it for you."{" "}
           </p>
-          <footer className="blockquote-footer">Kanye West</footer>
+          <footer className="blockquote-footer">Kobe Bryant</footer>
         </blockquote>
       </Card.Body>
     </Card>
