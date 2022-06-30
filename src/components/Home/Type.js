@@ -9,6 +9,7 @@ function Type() {
           "Full-Stack Developer",
           "MERN Stack Developer",
           "Flutter Developer",
+          "AWS Certified Cloud Practitioner",
           "Quality Assurance Engineer",
           "Data Analyst",
           "Freelance Developer"
