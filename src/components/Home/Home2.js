@@ -19,11 +19,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with computers when I used to play video games on my father's computer as a 3 year old kid 🤷‍♂️
+              I am a <i>
+                <b className="purple"> AWS certified Cloud Practitioner</b>
+              </i>, and always learning more about the cloud.
               <br />
-              <br />I am fluent in classics like
+              <br />I am proficient in classics like 
               <i>
-                <b className="purple">Javascript, Python, C#, Java, and Dart.</b>
+                <b className="purple"> Javascript, Python, C#, Java, and Dart.</b>
               </i>
               <br />
               <br />
