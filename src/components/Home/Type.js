@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "Full-Stack Developer",
-          "MERN Stack Developer",
+          "Data Engineer",
           "Flutter Developer",
           "AWS Certified Cloud Practitioner",
           "Quality Assurance Engineer",
@@ -16,6 +16,7 @@ function Type() {
         ],
         autoStart: true,
         loop: true,
+        delay:40,
         deleteSpeed: 10,
       }}
     />
