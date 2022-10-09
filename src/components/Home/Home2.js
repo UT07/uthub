@@ -40,7 +40,7 @@ function Home2() {
               Whenever possible, I also apply my passion for developing products
               with <b className="purple">Node.js, Express.js</b> and
               <i>
-                <b className="purple">
+                <b>
                   {" "}
                   Modern Javascript Library and Frameworks
                 </b>
