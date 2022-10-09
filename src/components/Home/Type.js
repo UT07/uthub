@@ -7,6 +7,7 @@ function Type() {
       options={{
         strings: [
           "Full-Stack Developer",
+          "AWS Certified Developer Associate",
           "Data Engineer",
           "Flutter Developer",
           "AWS Certified Cloud Practitioner",

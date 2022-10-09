@@ -18,7 +18,7 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
-            <p className="home-about-body"> I am currently working as a <span className="purple"> Data Analyst</span> for <span className="purple"> Data Glacier</span> as well as a <span className="purple"> Web Developer</span> for <span className="purple"> Allen Americans Hockey Club</span>. Apart from that I recently got my <span className="purple"> AWS Cloud Practitioner</span> certification, and currently learning more about the cloud
+            <p className="home-about-body"> I am currently working as a <span className="purple"> Data Analyst</span> for <span className="purple"> Data Glacier</span> as well as a <span className="purple"> Web Developer</span> for <span className="purple"> Allen Americans Hockey Club</span>. Apart from that I recently got my <span className="purple"> AWS Developer Associate</span> and <span className="purple"> AWS Cloud Practitioner</span> certification, and currently learning more about the cloud
           
               <br />
               <br />I am proficient in classics like 
